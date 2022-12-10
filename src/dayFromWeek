@@ -1,0 +1,29 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class homework3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Select a day from week:");
+        int day = scanner.nextInt();
+        if (day == 1){
+            System.out.println("You have selected 1 Day of the week is Monday.");
+        }else if (day == 2){
+            System.out.println("You have selected 2 Day of the week is Tuesday.");
+        }else if (day == 3){
+            System.out.println("You have selected 3 Day of the week is Wednesday.");
+        } else if (day == 4) {
+            System.out.println("You have selected 4 Day of the week is Thursday.");
+        }else if (day == 5){
+            System.out.println("You have selected 5 Day of the week is Friday.");
+        }else if (day == 6){
+            System.out.println("You have selected 6 Day of the week is Saturday.");
+        } else if (day == 7) {
+            System.out.println("You have selected 7 Day of the week is Sunday.");
+        }else {
+            System.out.println("Incorrect day from week");
+        }
+        
+    }
+}
