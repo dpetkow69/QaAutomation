@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class homework3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double a = Double.parseDouble(scanner.nextLine());
+        double height = Double.parseDouble(scanner.nextLine());
+        double perimeter = a*2 + height*2;
+        System.out.println("Perimeter is: "+perimeter);
+        System.out.println("Area is: "+a*height);
+
+    }
+}
